@@ -12,7 +12,7 @@
 ---
 
 ## 📝 Descripción del Laboratorio
-Este laboratorio aborda los fundamentos de la Programación Orientada a Objetos (POO) en el lenguaje C# dentro de la plataforma .NET[cite: 1]. Se centra en la creación e instanciación de clases, la implementación de métodos con y sin parámetros, el paso de argumentos, así como la aplicación del encapsulamiento utilizando variables de instancia privadas (`private`) y propiedades con descriptores de acceso (`get` y `set`)[cite: 1].
+Este laboratorio aborda los fundamentos de la Programación Orientada a Objetos (POO) en el lenguaje C# dentro de la plataforma .NET. Se centra en la creación e instanciación de clases, la implementación de métodos con y sin parámetros, el paso de argumentos, así como la aplicación del encapsulamiento utilizando variables de instancia privadas (`private`) y propiedades con descriptores de acceso (`get` y `set`).
 
 ---
 
