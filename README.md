@@ -8,6 +8,7 @@
 * **Grupo: 1IL133**
 * **Facilitador: Ing. Irina Fong**
 * **Estudiante: Javier Acuña**
+* **Fecha: lunes, 7 de septiembre de 2026**
 
 ---
 
