@@ -32,7 +32,7 @@ Este laboratorio abarca el diseño, modelado e implementación de clases en C# b
 ## Estructura de Carpetas o Directorios
 
 ```plaintext
-Laboratorio2/
+Laboratorio-2/
 ├── README.md                           # Documentación principal del repositorio
 ├── Laboratorio2.sln                    # Archivo de solución de Visual Studio[cite: 1]
 ├── LibroCalificaciones/                # Proyecto Actividad 3[cite: 1]
@@ -55,8 +55,8 @@ Laboratorio2/
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/jacu2006/Laboratorio2.git](https://github.com/jacu2006/Laboratorio2.git)
-   cd Laboratorio2-HPA3
+   git clone [https://github.com/jacu2006/Laboratorio-2.git](https://github.com/jacu2006/Laboratorio-2.git)
+   cd Laboratorio-2
 
 ---
 
