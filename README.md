@@ -55,7 +55,7 @@ Laboratorio2-HPA3/
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/TU_USUARIO/Laboratorio2-HPA3.git](https://github.com/TU_USUARIO/Laboratorio2-HPA3.git)
+   git clone [https://github.com/jacu2006/Laboratorio2-HPA3.git](https://github.com/jacu2006/Laboratorio2-HPA3.git)
    cd Laboratorio2-HPA3
 
 ---
