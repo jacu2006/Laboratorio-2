@@ -1,54 +1,76 @@
-# Laboratorio #2: Modelado de Clases y Gestión de Atributos mediante Propiedades en C#
-
-## 📌 Información General
-* **Universidad Tecnológica de Panamá**
-* **Facultad de Ingeniería en Sistemas Computacionales**
-* **Licenciatura en Ingeniería de Sistemas y Computación**
-* **Herramientas de Programación Aplicada III (.NET)**
-* **Grupo: 1IL133**
-* **Facilitador: Ing. Irina Fong**
-* **Estudiante: Javier Acuña**
-* **Fecha: lunes, 7 de septiembre de 2026**
+# Laboratorio #2 - Modelado de Clases y Gestión de Atributos mediante Propiedades en C#
+**Fecha:** 31/08/2026
 
 ---
 
-## 📝 Descripción del Laboratorio
-Este laboratorio aborda los fundamentos de la Programación Orientada a Objetos (POO) en el lenguaje C# dentro de la plataforma .NET. Se centra en la creación e instanciación de clases, la implementación de métodos con y sin parámetros, el paso de argumentos, así como la aplicación del encapsulamiento utilizando variables de instancia privadas (`private`) y propiedades con descriptores de acceso (`get` y `set`).
+## Contenido del Repositorio
+Este laboratorio abarca el diseño, modelado e implementación de clases en C# bajo el paradigma de la Programación Orientada a Objetos (POO) en .NET. Se aborda la organización de programas por consola, el funcionamiento del método `Main` como punto de entrada, el uso de modificadores de acceso (`public` y `private`), el paso de parámetros a métodos, y la aplicación del encapsulamiento a través de variables de instancia privadas con propiedades `get` y `set`[cite: 1].
 
 ---
 
-## 🎯 Objetivos de Aprendizaje
-* Comprender la estructura de una aplicación de consola en C# y el funcionamiento del método `Main` como punto de entrada de la ejecución.
-* Diseñar y programar clases en C# aplicando los estándares de nomenclatura de la industria (convención **PascalCase**) y modelado previo mediante diagramas de clases UML.
-* Implementar métodos con y sin parámetros para modularizar el comportamiento de los objetos.
-* Aplicar los modificadores de acceso `public` y `private` para garantizar el ocultamiento de información y la seguridad de los datos.
-* Manejar variables de instancia y propiedades con descriptores `get` y `set` para la lectura y escritura controlada de atributos en los objetos.
+## Tecnologías Utilizadas
+* **Lenguaje / Framework:** C# / .NET 10.0 (Aplicaciones de Consola)
+* **Base de datos:** N/A (Manejo de datos en memoria mediante objetos)
+* **Herramientas:** Visual Studio 2026, Git, GitHub[cite: 1, 3]
 
 ---
 
-## 📁 Contenido y Estructura del Repositorio
+## Capturas de Pantalla y Problemas
 
-El laboratorio está dividido en tres actividades progresivas:
+### Interfaz Principal
 
-### 🔹 Actividad 1: Declaración de Clases e Instanciación Básica
-* **Clase:** `LibroCalificacion`
-* **Conceptos:** Definición de una clase formal, instanciación de objetos usando el operador `new`, llamada a constructores implícitos y ejecución de métodos públicos de tipo `void` sin parámetros.
+![Salida de Consola - Actividad 1](docs/actividad1.png)[cite: 3]
+![Salida de Consola - Actividad 2](docs/actividad2.png)[cite: 3]
+![Salida de Consola - Actividad 3](docs/actividad3.png)[cite: 3]
 
-### 🔹 Actividad 2: Métodos con Parámetros y Formato de Entrada/Salida
-* **Clase:** `MiLibroCalificaciones`
-* **Conceptos:** Paso de parámetros del tipo `string`, captura de datos desde la consola mediante `Console.ReadLine()`, y uso de marcadores de posición posicionales (`{0}`) y saltos de línea (`\n`) dentro de `Console.WriteLine()`.
-
-### 🔹 Actividad 3: Encapsulamiento, Variables de Instancia y Propiedades
-* **Clase:** `LibroCalificaciones`
-* **Conceptos:** 
-  * Declaración de variables de instancia con modificador `private` para la protección de datos (ocultamiento de información).
-  * Implementación de un constructor explícito que recibe parámetros para inicializar el estado del objeto al instanciarlo.
-  * Creación de propiedades públicas (`NombreCurso`) con descriptores `get` (retorno del valor) y `set` (asignación del valor con la palabra reservada `value`).
+* **Actividad 1 (Creación de Clases e Instanciación Básica):** Implementación de la clase `LibroCalificacion` con un método público `MostrarMensaje()`[cite: 1, 3]. Se demuestra el proceso de instanciación con el operador `new` y la invocación de métodos sin parámetros[cite: 1].
+* **Actividad 2 (Declaración de Métodos con Parámetros):** Desarrollo de la clase `MiLibroCalificaciones` que incluye un método `MostrarMensaje(string nombreCurso)`[cite: 1, 3]. Captura datos mediante `Console.ReadLine()` y aplica marcadores de posición `{0}` para la salida por consola[cite: 1].
+* **Actividad 3 (Variables de Instancia y Propiedades `get`/`set`):** Implementación del encapsulamiento en la clase `LibroCalificaciones`[cite: 1, 3]. Se define una variable de instancia `private string nombreCurso`, un constructor explícito y una propiedad pública `NombreCurso` con descriptores `get` y `set` para la lectura y modificación controlada del estado del objeto[cite: 1].
 
 ---
 
-## 🛠️ Tecnologías y Herramientas Utilizadas
-* **Lenguaje:** C# (.NET Framework / .NET 10.0)
-* **Entorno de Desarrollo (IDE):** Visual Studio 2026
-* **Paradigma:** Programación Orientada a Objetos (POO)
-* **Control de Versiones:** Git & GitHub
+## Estructura de Carpetas o Directorios
+
+```plaintext
+Laboratorio2-HPA3/
+├── README.md                           # Documentación principal del repositorio
+├── Laboratorio2.sln                    # Archivo de solución de Visual Studio[cite: 1]
+├── LibroCalificaciones/                # Proyecto Actividad 3[cite: 1]
+│   ├── LibroCalificaciones.csproj
+│   ├── Program.cs                      # Punto de entrada Main[cite: 1]
+│   └── LibroCalificacion.cs            # Clase LibroCalificacion[cite: 1]
+├── LibroCalificaciones_1/              # Proyecto Actividad 1[cite: 1]
+│   ├── LibroCalificaciones_1.csproj
+│   ├── Program.cs                      # Lectura de consola e interacción[cite: 1]
+│   └── MiLibroCalificaciones.cs        # Clase con método parametrizado[cite: 1]
+└── LibroCalificaciones_2/              # Proyecto Actividad 2[cite: 1]
+    ├── LibroCalificaciones_2.csproj
+    ├── Program.cs                      # Prueba de propiedades y constructor[cite: 1]
+    └── LibroCalificaciones.cs          # Clase encapsulada con get/set[cite: 1]
+```
+
+---
+
+## Instrucciones de Ejecución / Uso
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/TU_USUARIO/Laboratorio2-HPA3.git](https://github.com/TU_USUARIO/Laboratorio2-HPA3.git)
+   cd Laboratorio2-HPA3
+
+---
+
+## Autor y Contexto
+* **Nombre:** Javier Alberto Acuña Castro[cite: 3]
+* **Institución:** Universidad Tecnológica de Panamá (UTP)[cite: 1, 3]
+* **Facultad:** Facultad de Ingeniería de Sistemas Computacionales (FISC)[cite: 1]
+* **Curso:** Herramientas de Programación Aplicada III (.NET) - Grupo 1IL133[cite: 1]
+* **Instructor:** Ing. Irina Fong[cite: 1]
+* **Fecha de Realización:** 31/08/2026[cite: 1, 3]
+
+---
+
+## Referencias
+* Guía de laboratorio: *Modelado de Clases y Gestión de Atributos mediante Propiedades en C#* - Ing. Irina Fong[cite: 1, 3].
+* Guía de Estandarización de Repositorios y Documentación con Markdown - FISC UTP[cite: 2, 3].
+* [Documentación oficial de C# y .NET (Microsoft Learn)](https://learn.microsoft.com/es-es/dotnet/csharp/)[cite: 3]
